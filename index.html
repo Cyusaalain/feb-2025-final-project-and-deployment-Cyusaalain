@@ -9,6 +9,7 @@
 <body>
   <header>
     <h1>ShopZone</h1>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -22,16 +23,19 @@
   <main>
     <section>
       <h2>Welcome to ShopZone!</h2>
-      <p>Find the best products here.</p>
+      <p>Find the best shoes here.</p>
     </section>
 
     <section>
       <h3>Featured Products</h3>
       <article>
-        <img src="images/sample-product.jpg" alt="Sample Product" />
-        <h4>Product Name</h4>
+        <img src="/assets/images/1.PNG" alt="Sample Product" />
+        <h4>shoes</h4>
         <p>$19.99</p>
-        <button onclick="addToCart('Product Name')">Add to Cart</button>
+        <button onclick="addToCart(this)"
+  data-name="Product 2"
+  data-price="39.99"
+  data-img="assets/images/2.PNG">Add to Cart</button>
       </article>
     </section>
   </main>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopZone | Products</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>ShopZone</h1>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <input type="search" id="product-search" placeholder="Search products..." />
+    <section>
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <article>
+          <img src="assets/images/1.PNG" alt="short shoes" />
+          <h3>short shoes </h3>
+          <p>$29.99</p>
+          <button onclick="addToCart(this)"
+  data-name="short shoes"
+  data-price="29.99"
+  data-img="assets/images/2.PNG">Add to Cart</button>
+        </article>
+        <article>
+          <img src="assets/images/2.PNG" alt="Product 1" />
+          <h3>Product 1</h3>
+          <p>$39.99</p>
+          <button onclick="addToCart(this)"
+  data-name="Product 1"
+  data-price="39.99"
+  data-img="assets/images/2.PNG">Add to Cart</button>
+        </article>
+        <article>
+            <img src="assets/images/3.PNG" alt="Product 3" />
+            <h3>Product 3</h3>
+            <p>$39.99</p>
+            <button onclick="addToCart(this)"
+  data-name="Product 3"
+  data-price="39.99"
+  data-img="assets/images/2.PNG">Add to Cart</button>
+          </article>
+          <article>
+            <img src="assets/images/2.PNG" alt="Product 4" />
+            <h3>Product 4</h3>
+            <p>$39.99</p>
+            <button onclick="addToCart(this)"
+  data-name="Product 4"
+  data-price="39.99"
+  data-img="assets/images/2.PNG">Add to Cart</button>
+          </article>
+          <article>
+            <img src="assets/images/2.PNG" alt="Product 5" />
+            <h3>Product 5</h3>
+            <p>$39.99</p>
+            <button onclick="addToCart(this)"
+  data-name="Product 5"
+  data-price="39.99"
+  data-img="assets/images/2.PNG">Add to Cart</button>
+          </article>
+          <article>
+            <img src="assets/images/2.PNG" alt="Product 6" />
+            <h3>Product 6</h3>
+            <p>$39.99</p>
+            <button onclick="addToCart(this)"
+  data-name="Product 6"
+  data-price="39.99"
+  data-img="assets/images/2.PNG">Add to Cart</button>
+          </article>
+          <article>
+            <img src="assets/images/2.PNG" alt="Product 7" />
+            <h3>Product 7</h3>
+            <p>$39.99</p>
+            <button onclick="addToCart(this)"
+  data-name="Product 7"
+  data-price="39.99"
+  data-img="assets/images/2.PNG">Add to Cart</button>
+          </article>
+          <article>
+            <img src="assets/images/2.PNG" alt="Product 8" />
+            <h3>Product 8</h3>
+            <p>$39.99</p>
+            <button onclick="addToCart(this)"
+  data-name="Product 8"
+  data-price="39.99"
+  data-img="assets/images/2.PNG">Add to Cart</button>
+          </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ShopZone</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
